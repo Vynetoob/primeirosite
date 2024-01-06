@@ -1,0 +1,94 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: "Courier New", sans-serif;
+    margin: 0px;
+    height: 800px;
+    
+
+}
+
+body.dark-mode {
+    background-color: #282828;
+    color: white;
+}
+
+button {
+    background-color: #d6d6d6;
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-top: 25px;
+    
+
+}
+
+body.dark-mode button {
+    background-color: #3C3B3B;
+    color: white;
+}
+
+h1 {
+    padding: 50px;
+    background-color: #cfcfcf;
+    color: rgb(0, 0, 0);
+}
+
+body.dark-mode h1 {
+    padding: 50px;
+    background-color: #3C3B3B;
+    color: white;
+}
+
+
+.centralizar-teste{
+    text-align: center
+}
+
+.quemsoueu {
+    text-align: center;
+    height: 35px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
+
+ .textoquemsoueu {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+ 
+.h2espaco {
+    margin-left: 50px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    
+    
+}
+
+@media screen and (max-width: 600px) {
+    footer {
+        
+        padding: 10px;
+        font-size: 14px;
+    }}
+
+@media screen and (max-width: 600px) {
+    .textoquemsoueu {
+        font-size: 14px;
+        text-align: center;
+        margin-left: 25px;
+        margin-right: 25px;
+
+    }
+}
